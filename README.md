@@ -15,7 +15,7 @@
 
 <br>
 
-**[🚀 Live Demo](https://flowboard.baristok.com)** &nbsp;•&nbsp; **[🇬🇧 English](#-english)** &nbsp;•&nbsp; **[🇹🇷 Türkçe](#-türkçe)**
+**[🚀 Live Demo](https://flowboard.baristok.com)** &nbsp;•&nbsp; **[🇹🇷 Türkçe](#-türkçe)** &nbsp;•&nbsp; **[🇬🇧 English](#-english)**
 
 </div>
 
