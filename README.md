@@ -1,9 +1,11 @@
 <div align="center">
 
-![FlowBoard](docs/screenshots/logo.png)
+<img src="docs/screenshots/logo.png" alt="FlowBoard" width="420" />
 
-**A modern Kanban-based project management application**
-**Modern Kanban tabanlı proje yönetim uygulaması**
+<p>
+	<strong>A modern Kanban-based project management application</strong><br>
+	<strong>Modern Kanban tabanlı proje yönetim uygulaması</strong>
+</p>
 
 <br>
 
