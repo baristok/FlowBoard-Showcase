@@ -15,9 +15,100 @@
 
 <br>
 
-**[🚀 Live Demo](https://flowboard.baristok.com)** &nbsp;•&nbsp; **[🇬🇧 English](#-english)** &nbsp;•&nbsp; **[🇹🇷 Türkçe](#-türkçe)**
+**[🚀 Live Demo](https://flowboard.baristok.com)** &nbsp;•&nbsp; **[🇹🇷 Türkçe](#-türkçe)** &nbsp;•&nbsp; **[🇬🇧 English](#-english)**
 
 </div>
+
+---
+## 🇹🇷 Türkçe
+
+### Hakkında
+
+FlowBoard, Laravel 12 ile geliştirilmiş, tam özellikli bir Kanban proje yönetim uygulamasıdır. Bireyler ve ekipler; görevlerini görsel Kanban panolarında organize edebilir, ekip arkadaşlarıyla iş birliği yapabilir, dahili Pomodoro zamanlayıcıyla zaman takibi yapabilir ve analitik panolar üzerinden verimliliklerini analiz edebilir.
+
+### ✨ Özellikler
+
+#### 📋 Kanban Panosu
+- Sütunlar arasında sürükle-bırak kart taşıma
+- Renk kodlamalı, özelleştirilebilir sütunlar
+- Otomatik oluşturulan varsayılan sütunlar: *Yapılacak*, *Devam Ediyor*, *İnceleme*, *Tamamlandı*
+- Sütun sıralama ve koruma
+
+#### ✅ Görev Yönetimi
+- Başlık, açıklama, aciliyet seviyesi ve son tarih
+- Alt görevler (kontrol listeleri) ve ilerleme takibi
+- Renk kodlamalı etiketler
+- Yorum ve tartışma akışı
+- Dahili zaman takibi (saniye hassasiyetinde)
+
+#### 👥 Takım İş Birliği
+- Tek kullanımlık güvenli token'larla davet sistemi
+- Rol tabanlı erişim: **Sahip**, **Yönetici**, **Üye**
+- Proje bazlı üye yönetimi
+
+#### ⏱️ Pomodoro Zamanlayıcı
+- Dahili Pomodoro üretkenlik zamanlayıcısı
+- Çalışma / mola oturumu takibi
+- Oturum geçmişi ve zaman özetleri
+
+#### 📊 Analitik Panosu
+- Görev tamamlama istatistikleri
+- Aylık görev oluşturma trendleri (12 aylık grafik)
+- Sütun dağılımı (halka grafik)
+- Gecikmiş görev takibi
+- Harcanan zaman raporlama
+
+#### 🔐 Kimlik Doğrulama
+- E-posta ve şifre ile kayıt/giriş
+- E-posta doğrulama zorunluluğu
+- OAuth sosyal giriş: **Google**, **Microsoft**
+- Şifre sıfırlama akışı
+
+#### 💎 Planlar
+- **Ücretsiz:** 3 proje, 50 görev/proje, 5 takım üyesi
+- **Premium:** Sınırsız proje, görev ve üye
+
+#### 🎨 Arayüz / UX
+- Karanlık & Açık tema (localStorage ile kalıcı)
+- Tam responsive — mobil, tablet, masaüstü
+- Komut paleti (`Ctrl+K` / `Cmd+K`)
+- Toast bildirimleri
+- Türkçe arayüz
+
+---
+
+### 🛠️ Teknoloji Yığını
+
+| Katman | Teknoloji |
+|--------|-----------|
+| Backend | Laravel 12, PHP 8.5 |
+| Frontend | Alpine.js v3, Tailwind CSS v4 |
+| Veritabanı | MySQL 8 |
+| Kimlik Doğrulama | Laravel session + Laravel Socialite |
+| Sosyal OAuth | Google, GitHub, Microsoft |
+| Geliştirme Ortamı | Docker |
+| Kod Kalitesi | Laravel Pint, PHPUnit 11 |
+
+---
+
+### 📸 Ekran Görüntüleri
+
+> `docs/screenshots/` klasörüne ekran görüntülerinizi ekleyin, burada görünür olacaklar.
+
+| Kanban Panosu | Analitik |
+|---|---|
+| ![Kanban](docs/screenshots/kanban.png) | ![Analytics](docs/screenshots/analytics.png) |
+
+| Projeler Listesi | Kullanıcı Profili |
+|---|---|
+| ![Projects](docs/screenshots/projects.png) | ![Profile](docs/screenshots/profile.png) |
+
+<details>
+<summary>📱 Mobil Görünüm</summary>
+
+![Mobile](docs/screenshots/mobile.png)
+
+</details>
 
 ---
 
@@ -116,98 +207,6 @@ FlowBoard is a full-featured Kanban project management application built with La
 ### 🚀 Demo
 
 Try the live demo: **[flowboard.baristok.com](https://flowboard.baristok.com)**
-
----
-
-## 🇹🇷 Türkçe
-
-### Hakkında
-
-FlowBoard, Laravel 12 ile geliştirilmiş, tam özellikli bir Kanban proje yönetim uygulamasıdır. Bireyler ve ekipler; görevlerini görsel Kanban panolarında organize edebilir, ekip arkadaşlarıyla iş birliği yapabilir, dahili Pomodoro zamanlayıcıyla zaman takibi yapabilir ve analitik panolar üzerinden verimliliklerini analiz edebilir.
-
-### ✨ Özellikler
-
-#### 📋 Kanban Panosu
-- Sütunlar arasında sürükle-bırak kart taşıma
-- Renk kodlamalı, özelleştirilebilir sütunlar
-- Otomatik oluşturulan varsayılan sütunlar: *Yapılacak*, *Devam Ediyor*, *İnceleme*, *Tamamlandı*
-- Sütun sıralama ve koruma
-
-#### ✅ Görev Yönetimi
-- Başlık, açıklama, aciliyet seviyesi ve son tarih
-- Alt görevler (kontrol listeleri) ve ilerleme takibi
-- Renk kodlamalı etiketler
-- Yorum ve tartışma akışı
-- Dahili zaman takibi (saniye hassasiyetinde)
-
-#### 👥 Takım İş Birliği
-- Tek kullanımlık güvenli token'larla davet sistemi
-- Rol tabanlı erişim: **Sahip**, **Yönetici**, **Üye**
-- Proje bazlı üye yönetimi
-
-#### ⏱️ Pomodoro Zamanlayıcı
-- Dahili Pomodoro üretkenlik zamanlayıcısı
-- Çalışma / mola oturumu takibi
-- Oturum geçmişi ve zaman özetleri
-
-#### 📊 Analitik Panosu
-- Görev tamamlama istatistikleri
-- Aylık görev oluşturma trendleri (12 aylık grafik)
-- Sütun dağılımı (halka grafik)
-- Gecikmiş görev takibi
-- Harcanan zaman raporlama
-
-#### 🔐 Kimlik Doğrulama
-- E-posta ve şifre ile kayıt/giriş
-- E-posta doğrulama zorunluluğu
-- OAuth sosyal giriş: **Google**, **Microsoft**
-- Şifre sıfırlama akışı
-
-#### 💎 Planlar
-- **Ücretsiz:** 3 proje, 50 görev/proje, 5 takım üyesi
-- **Premium:** Sınırsız proje, görev ve üye
-
-#### 🎨 Arayüz / UX
-- Karanlık & Açık tema (localStorage ile kalıcı)
-- Tam responsive — mobil, tablet, masaüstü
-- Komut paleti (`Ctrl+K` / `Cmd+K`)
-- Toast bildirimleri
-- Türkçe arayüz
-
----
-
-### 🛠️ Teknoloji Yığını
-
-| Katman | Teknoloji |
-|--------|-----------|
-| Backend | Laravel 12, PHP 8.5 |
-| Frontend | Alpine.js v3, Tailwind CSS v4 |
-| Veritabanı | MySQL 8 |
-| Kimlik Doğrulama | Laravel session + Laravel Socialite |
-| Sosyal OAuth | Google, GitHub, Microsoft |
-| Geliştirme Ortamı | Docker |
-| Kod Kalitesi | Laravel Pint, PHPUnit 11 |
-
----
-
-### 📸 Ekran Görüntüleri
-
-> `docs/screenshots/` klasörüne ekran görüntülerinizi ekleyin, burada görünür olacaklar.
-
-| Kanban Panosu | Analitik |
-|---|---|
-| ![Kanban](docs/screenshots/kanban.png) | ![Analytics](docs/screenshots/analytics.png) |
-
-| Projeler Listesi | Kullanıcı Profili |
-|---|---|
-| ![Projects](docs/screenshots/projects.png) | ![Profile](docs/screenshots/profile.png) |
-
-<details>
-<summary>📱 Mobil Görünüm</summary>
-
-![Mobile](docs/screenshots/mobile.png)
-
-</details>
 
 ---
 
