@@ -1,6 +1,6 @@
 <div align="center">
 
-# FlowBoard
+![FlowBoard](docs/screenshots/logo.png)
 
 **A modern Kanban-based project management application**
 **Modern Kanban tabanlı proje yönetim uygulaması**
